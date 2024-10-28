@@ -12,7 +12,7 @@ import away3d.errors.AbstractMethodError;
 
 using StringTools;
 
-class Character3D extends objects.Character
+class Character3D extends FlxSprite
 {
 	public var animOffsets:Map<String, Array<Dynamic>>;
 	public var debugMode:Bool = false;
