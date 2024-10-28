@@ -4,8 +4,7 @@ import states.stages.objects.*;
 
 class Minecraft extends BaseStage
 {
-	// If you're moving your stage from PlayState to a stage file,
-	// you might have to rename some variables if they're missing, for example: camZooming -> game.camZooming
+	private var dad:Character3D;
 
 	override function create()
 	{
