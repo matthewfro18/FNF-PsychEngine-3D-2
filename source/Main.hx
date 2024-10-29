@@ -56,6 +56,8 @@ class Main extends Sprite
 
 	public static var fpsVar:FPSCounter;
 
+	public static var modelView:ModelView;
+
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
 	public static function main():Void
@@ -115,6 +117,8 @@ class Main extends Sprite
 		Mods.pushGlobalMods();
 		#end
 		Mods.loadTopMod();
+
+		modelView = new ModelView();
 
 		FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
