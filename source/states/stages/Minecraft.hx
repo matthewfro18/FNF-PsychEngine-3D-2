@@ -42,7 +42,8 @@ class Minecraft extends BaseStage
 					newDad.alpha = 0.00001;
 					startCharacterScripts(newDad.curCharacter);
 				}
-	}
+	                     }
+        }
 	public function addBehindDad(obj:FlxBasic)
 	{
 		insert(members.indexOf(dadGroup), obj);
