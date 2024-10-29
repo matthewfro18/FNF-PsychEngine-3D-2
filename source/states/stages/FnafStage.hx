@@ -5,7 +5,7 @@ import states.stages.objects.*;
 class FnafStage extends BaseStage
 {
         public var dadMap:Map<String, Character3D> = new Map<String, Character3D>();
-	public var dad:Character3D = 'steve';
+	public var dad:Character3D = 'endo';
 	public var dadGroup:FlxSpriteGroup;
 
 	public var vocals:FlxSound;
