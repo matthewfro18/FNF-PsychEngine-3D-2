@@ -4,7 +4,7 @@ import states.stages.objects.*;
 
 class Minecraft extends BaseStage
 {
-	private var dad:Character3D;
+        var dad:Character3D;
 
 	override function create()
 	{
