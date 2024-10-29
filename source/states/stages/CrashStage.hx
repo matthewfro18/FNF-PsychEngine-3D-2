@@ -5,7 +5,7 @@ import states.stages.objects.*;
 class CrashStage extends BaseStage
 {
         public var dadMap:Map<String, Character3D> = new Map<String, Character3D>();
-	public var dad:Character3D = 'steve';
+	public var dad:Character3D = 'crash';
 	public var dadGroup:FlxSpriteGroup;
 
 	public var vocals:FlxSound;
