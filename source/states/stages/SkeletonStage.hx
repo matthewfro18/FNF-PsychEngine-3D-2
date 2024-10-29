@@ -26,7 +26,7 @@ class SkeletonStage extends BaseStage
 		
 		add(dadGroup);
 
-		startCharacterScripts(dad.curCharacter)
+		startCharacterScripts(dad.curCharacter);
 	}
 	public function addCharacterToList(newCharacter:String, type:Int) {
 		switch(type) {
